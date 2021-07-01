@@ -22,20 +22,20 @@ function App() {
     <UserContext.Provider value={[userInfo, setUserInfo]}>
       <Router>
         <div>
-          <NavBar></NavBar>
+          <NavBar/>
           <Switch>
 
             <Route path="/profile">
               <Profile />
             </Route>
             <Route path="/user">
-              <User></User>
+              <User/>
             </Route>
             <Route path="/userDetails/:id">
-              <UserDetails></UserDetails>
+              <UserDetails/>
             </Route>
             <Route path="/:id">
-              <PostDetailsComment></PostDetailsComment>
+              <PostDetailsComment/>
             </Route>
             <Route path="/">
               <Post />
