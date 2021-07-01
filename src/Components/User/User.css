@@ -1,0 +1,11 @@
+
+.name:hover .tooltiptext{
+   color: red;
+    visibility: visible;
+}
+.tooltiptext  {
+    visibility: hidden;
+  }
+  .name:hover{
+    cursor: pointer;
+  }
